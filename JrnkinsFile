@@ -1,0 +1,17 @@
+pipeline{
+    agent any
+    stages{
+        stage("Title1"){
+            steps {
+                echo "Jenkins Tut"
+            }
+        }
+            
+            stage("Description"){
+                steps {
+                    echo "This is Jenkins learning pipeline"
+                }
+            }
+        }
+    }
+    
